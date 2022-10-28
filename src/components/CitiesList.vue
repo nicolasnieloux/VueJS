@@ -6,7 +6,7 @@
 v-bind:name="city.name"
 v-bind:weather="city.weather"
 v-bind:temperature="city.temperature"
-v-bind:updated-at="city.updatedAt">
+v-bind:updated-at="city.updatedAt.toLocaleString()">
 </City>
  </div>
 
@@ -20,6 +20,12 @@ export default {
   components: {
     City,
   },
+
+
+
+
+
+
   data() {
     return {
       cities: [
@@ -45,7 +51,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 h3 {
   margin: 40px 0 0;
 }

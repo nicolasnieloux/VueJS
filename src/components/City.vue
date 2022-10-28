@@ -4,6 +4,7 @@
     <p>{{ weather }}</p>
     <p>{{ temperature }}</p>
     <p>{{ updatedAt }}</p>
+    <hr>
   </div>
 </template>
 

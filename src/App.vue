@@ -1,17 +1,25 @@
 <template>
-  <div id="app">
+  <div>
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+
+    <p>
+      <router-link to="/cities">Liste des villes</router-link>
+    </p>
+    <router-view></router-view>
+
   </div>
+
 </template>
 
+
 <script>
-import HelloWorld from './components/CitiesList.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+
   }
 }
 </script>
