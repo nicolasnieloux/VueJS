@@ -6,6 +6,9 @@
     <p>
       <router-link to="/cities">Liste des villes</router-link>
     </p>
+    <p>
+      <router-link to="/">Ma ville</router-link>
+    </p>
     <router-view></router-view>
 
   </div>

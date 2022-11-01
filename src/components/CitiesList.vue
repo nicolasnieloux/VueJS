@@ -21,11 +21,6 @@ export default {
     City,
   },
 
-
-
-
-
-
   data() {
     return {
       cities: [
