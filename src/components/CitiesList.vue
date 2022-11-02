@@ -2,7 +2,7 @@
 <!--  <City name="Chambéry" weather="Beau" temperature=35 :updatedAt="new Date()"></City>-->
 
  <div>
-<City v-for="city in cities" v-bind:key="city"
+<City v-for="city in cities" :key="city.id"
 v-bind:name="city.name"
 v-bind:weather="city.weather"
 v-bind:temperature="city.temperature"

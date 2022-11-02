@@ -9,6 +9,9 @@
     <p>
       <router-link to="/">Ma ville</router-link>
     </p>
+    <p>
+      <router-link to="/api">Villes API</router-link>
+    </p>
     <router-view></router-view>
 
   </div>

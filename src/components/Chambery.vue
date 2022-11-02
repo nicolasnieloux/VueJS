@@ -6,7 +6,7 @@
   <!--    <p>{{ updatedAt }}</p>-->
   <!--    <hr>-->
   <!--  </div>-->
-  <div>
+<div>
     <City
         v-bind:name="name"
         v-bind:weather="weather"
@@ -15,7 +15,7 @@
 
     </City>
 
-  </div>
+</div>
 
 </template>
 

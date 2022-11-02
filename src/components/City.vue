@@ -16,7 +16,7 @@ export default {
     name: String,
     weather: String,
     temperature: Number,
-    updatedAt: Date,
+    updatedAt: String,
   },
   data() {
     return {
